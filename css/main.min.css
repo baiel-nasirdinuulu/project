@@ -1,0 +1,185 @@
+.container {
+  width: 90%;
+  margin: 0 auto; }
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px; }
+
+.header__logo {
+  background-image: url(../img/star-icon.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  height: 40px;
+  text-decoration: none;
+  width: 244.11px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+  color: white; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 85px; }
+  .menu__list {
+    list-style: none; }
+  .menu__link {
+    text-decoration: none;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    /* identical to box height */
+    letter-spacing: 0.533333px;
+    text-transform: capitalize;
+    color: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+    .menu__link:hover {
+      border-bottom: 2px solid #f7f1f1; }
+  .menu__button {
+    margin: 0;
+    padding: 0;
+    height: 66.6px;
+    width: 193.7px;
+    border-radius: 33px;
+    background-color: #db3c26;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; }
+    .menu__button:hover {
+      background-color: #a09696; }
+  .menu__sign {
+    border-radius: 45px;
+    margin-top: 10px;
+    display: block;
+    height: 56.6px;
+    width: 183.7px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 41px;
+    /* identical to box height, or 170% */
+    text-align: center;
+    text-transform: uppercase;
+    color: #eaeaea;
+    text-decoration: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; }
+    .menu__sign:hover {
+      color: #050505; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  margin: 0;
+  line-height: 21px;
+  background-color: black; }
+
+.container {
+  width: 90%;
+  margin: 0 auto; }
+
+.index-main {
+  background-image: url(../img/images.); }
+
+.unlesh {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 95px;
+  margin-bottom: 34px; }
+  .unlesh__h1 {
+    font-family: "Ultra";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 94px;
+    /* or 138% */
+    text-align: center;
+    letter-spacing: 5.33333px;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .unlesh__img {
+    width: 66px; }
+  .unlesh__container {
+    width: 80%;
+    margin: auto; }
+  .unlesh__p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 51px;
+    /* or 171% */
+    text-align: center;
+    color: #eaeaea;
+    margin-bottom: 80px; }
+  .unlesh__container2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 34px;
+    width: 500px;
+    margin: auto; }
+  .unlesh__button {
+    width: 255.64px;
+    height: 73.87px;
+    background: #0f7948;
+    border-radius: 35.8788px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; }
+    .unlesh__button:hover {
+      background-color: #044b2a; }
+  .unlesh__button2 {
+    width: 255.64px;
+    height: 73.87px;
+    background: #050505;
+    border: 1px solid white;
+    border-radius: 35.8788px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s; }
+    .unlesh__button2:hover {
+      background-color: #044b2a; }
+  .unlesh a {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 43px;
+    /* or 166% */
+    text-align: center;
+    text-transform: uppercase;
+    color: #eaeaea;
+    text-decoration: none; }
+
+footer {
+  height: 100px;
+  margin-top: 200px;
+  background-image: url("../img/images.png");
+  margin-bottom: 50px; }
